@@ -1,11 +1,7 @@
 using System.Collections.Generic;
 
-namespace CastleGrimtol.Project
-{
-    public interface IPlayer
-    {
-        int Score { get; set; }
-        List<Item> Inventory { get; set; }
-
+namespace CastleGrimtol.Project {
+    public interface IPlayer {
+        Dictionary<string, Item> Inventory { get; set; }
     }
 }
